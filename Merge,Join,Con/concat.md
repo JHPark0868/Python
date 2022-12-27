@@ -22,7 +22,7 @@ pd.concat(
 |Parameter | 기본값   | 의미   |
 |----|-----|-----|
 |`objs`| a sequence or mapping Series or Dataframe object <br>  | B0  |
-|  `axis` | `=0`: index 행방향 아래로 <br> `=1`: columns 열방향 옆으로 |결합방향, default 0 |
+|  `axis` | `0`, `1` |결합방향, `=0` 아래로(행방향) , `=1` 옆으로(열방향) default 0 |
 |  `join` | A2  | B2  |
 
 df 
